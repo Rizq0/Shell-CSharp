@@ -2,6 +2,9 @@ class Program
 {
     static void Main()
     {
-         Console.Write("$ ");
+        Console.Write("$ ");
+        string input = Console.ReadLine();
+        Console.WriteLine($"{input}: command not found");
+
     }
 }
