@@ -7,7 +7,14 @@ class Program
         {
             Console.Write("$ ");
             string input = Console.ReadLine();
-            Console.WriteLine($"{input}: command not found");
+            if (input.ToLower() == "exit")
+            { 
+                isRunning = false;
+            }
+            else
+            {
+                Console.WriteLine($"{input}: command not found");
+            }
         }
     }
 }
