@@ -11,6 +11,10 @@ class Program
             { 
                 isRunning = false;
             }
+            else if (input.ToLower().StartsWith("echo "))
+            {
+                Console.WriteLine(input.Substring(5));
+            }
             else
             {
                 Console.WriteLine($"{input}: command not found");
