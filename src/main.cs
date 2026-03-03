@@ -1,4 +1,4 @@
-using CodecraftersShell.src.Commands;
+using Shell.src.Commands;
 
 class Program
 {
