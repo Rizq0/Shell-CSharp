@@ -1,10 +1,11 @@
-﻿using System;
+﻿using src.Commands;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shell.src.Commands
+namespace src.Commands
 {
     internal class CommandRegistry
 {

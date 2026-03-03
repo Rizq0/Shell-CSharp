@@ -1,4 +1,4 @@
-using Shell.src.Commands;
+using src.Commands;
 
 class Program
 {
